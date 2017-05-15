@@ -1,0 +1,46 @@
+.lines-body-container .lines-body-header {
+  text-align: center; }
+.lines-body-container .single-line {
+  background-color: #eeeeee;
+  padding: 24px;
+  margin-bottom: 16px; }
+  .lines-body-container .single-line .logo-container.left-logo-container {
+    text-align: left; }
+  .lines-body-container .single-line .logo-container.right-logo-container {
+    text-align: right; }
+  .lines-body-container .single-line .logo-container .logo-holder {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 100%;
+    padding-bottom: 50%;
+    padding-top: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; }
+    @media (min-width: 767px) {
+      .lines-body-container .single-line .logo-container .logo-holder {
+        height: 250px;
+        width: 250px;
+        padding-top: 0px;
+        padding-bottom: 0px; } }
+  .lines-body-container .single-line .line-content-container {
+    text-align: center; }
+    .lines-body-container .single-line .line-content-container h2 small {
+      vertical-align: middle;
+      color: green;
+      line-height: 1.1; }
+    @media (max-width: 767px) {
+      .lines-body-container .single-line .line-content-container h2, .lines-body-container .single-line .line-content-container h3 {
+        margin: 0px;
+        padding: 4px; } }
+    @media (max-width: 500px) {
+      .lines-body-container .single-line .line-content-container h2, .lines-body-container .single-line .line-content-container h3 {
+        font-size: 12px; } }
+    .lines-body-container .single-line .line-content-container button {
+      margin-top: 16px; }
+      @media (max-width: 767px) {
+        .lines-body-container .single-line .line-content-container button {
+          margin: 0px; } }
+
+/*# sourceMappingURL=main.css.map */
